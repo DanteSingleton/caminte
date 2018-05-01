@@ -93,7 +93,7 @@ declare namespace caminte {
     }
 
     class AbstractClass implements Hookable, Validatable{
-        toJson():any;
+        toJSON():any;
         find(params?: any, callback?: CallbackResult):Query;
         exec(params?: any, callback?: CallbackResult):Query;
         all(params?: any, callback?: CallbackResult):Query;
